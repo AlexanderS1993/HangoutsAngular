@@ -1,6 +1,6 @@
 // AngularJs
-var app = angular.module('myApp', []);
-app.controller('myCtrl', function($scope) {
+var app = angular.module('HangoutsAngular', []);
+app.controller('IndexController', function($scope) {
 	$scope.firstName = "John";
 	$scope.lastName = "Doe";
 });
