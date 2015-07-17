@@ -1,5 +1,5 @@
 application: hangoutsangular
-version: 1
+version: 2
 runtime: php55
 module: default
 api_version: 1
@@ -7,3 +7,10 @@ api_version: 1
 handlers:
 - url: /.*
   script: index.html
+  
+- url: /css
+  static_dir: css
+  
+- url: /js
+  static_dir: js
+  
