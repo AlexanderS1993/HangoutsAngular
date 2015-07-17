@@ -11,6 +11,9 @@ handlers:
 - url: /js
   static_dir: js
   
+- url: /xml
+  static_dir: xml
+  
 - url: /.*
   script: index.html
   
