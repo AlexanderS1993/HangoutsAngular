@@ -1,16 +1,16 @@
 application: hangoutsangular
-version: 2
+version: 1
 runtime: php55
 module: default
 api_version: 1
 
 handlers:
-- url: /.*
-  script: index.html
-  
 - url: /css
   static_dir: css
   
 - url: /js
   static_dir: js
+  
+- url: /.*
+  script: index.html
   
