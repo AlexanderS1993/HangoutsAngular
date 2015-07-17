@@ -11,3 +11,10 @@ Export-Befehl aufrufen.
 cd ProjectRoot
 export PATH=$PATH:/home/.../gae_php/google_appengine
 appcfg.py update app
+
+## Nutzeridentifikation
+UserId eines Google Plus Nutzers: 113277481258166470181 (joba)
+Public Profile: https://plus.google.com/113277481258166470181
+
+## Hilfreiche Links und Quellen
+Buttons fuer Hangout-Funktion: https://developers.google.com/+/hangouts/button
